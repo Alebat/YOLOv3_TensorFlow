@@ -5,9 +5,11 @@
 from __future__ import division, print_function
 
 import tensorflow as tf
-slim = tf.contrib.slim
 
 from .utils.layer_utils import conv2d, darknet53_body, yolo_block, upsample_layer
+
+slim = tf.contrib.slim
+
 
 class yolov3(object):
 
